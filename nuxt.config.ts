@@ -1,5 +1,5 @@
 import { defineNuxtConfig } from "nuxt";
-import * as Constants from "@/data/Constants.js"
+import * as Constants from "./data/Constants.js"
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
