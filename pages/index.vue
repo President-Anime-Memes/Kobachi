@@ -62,7 +62,7 @@
             An anime community for memes and
             <a href="javascript:void(0)" class="text-pamred-100 hover:text-red-400"
               >anime character popularity polls</a
-            >! We release weekly character popularity charts!
+            >!
           </p>
         </div>
       </div>
@@ -144,4 +144,7 @@
 </template>
 <script setup>
 import { Name, Website, Discord, Facebook } from "@/data/Constants.js";
+definePageMeta({
+  title: "Seitokai",
+});
 </script>
