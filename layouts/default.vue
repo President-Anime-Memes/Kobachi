@@ -36,8 +36,6 @@
     >
       <slot />
     </main>
-    <LayoutPreFooter />
-    <LayoutFooter />
   </div>
 </template>
 <style>
